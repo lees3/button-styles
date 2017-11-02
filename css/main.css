@@ -34,6 +34,11 @@ div {
 background-color: #ccc;
 }
 
+.btn-subtle:hover {
+  background-color: #666;
+  color: #fff;
+}
+
 .btn-ghost {
   background-color: #fff;
   border-color: #000;
@@ -41,7 +46,23 @@ background-color: #ccc;
   border-width: 3px;
 }
 
+.btn-ghost:hover {
+  background-color: #666;
+}
+
+.btn-warning {
+  background-color: #f33;
+}
+
+.btn-warning:hover {
+  background-color: #933;
+}
+
 a {
   text-decoration: none;
   color: #fff;
+}
+
+.btn:hover {
+  color: #666;
 }
