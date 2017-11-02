@@ -11,3 +11,37 @@ div {
   padding: .5rem;
   text-align: center;
 }
+
+.btn {
+  border-radius: 8px;
+  background-color: #333;
+  display: inline-block;
+}
+
+ .btn {
+   padding: .4em;
+ }
+
+.btn-small {
+  padding: .3em;
+}
+
+.btn-big {
+  padding: .75em;
+}
+
+.btn-subtle {
+background-color: #ccc;
+}
+
+.btn-ghost {
+  background-color: #fff;
+  border-color: #000;
+  color: #333;
+  border-width: 3px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
